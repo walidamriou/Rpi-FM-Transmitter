@@ -7,13 +7,13 @@ This project uses the general clock output to produce frequency modulated radio 
 ## How to use it
 To use this project you will have to build the executable. First, clone this repository, then use `make` command as shown below:
 ```
-git clone https://github.com/markondej/fm_transmitter
+git clone https://github.com/walidamriou/Rpi-FM-Transmitter
 cd fm_transmitter
 make
 ``` 
-After a successful build you can start transmitting by executing the "fm_transmitter" program:
+After a successful build you can start transmitting by executing the "fm_transmitter" program, in this example I will transmits at 93.5 Mhz:
 ```
-sudo ./fm_transmitter -f 102.0 acoustic_guitar_duet.wav
+sudo ./fm_transmitter -f 93.5 acoustic_guitar_duet.wav
 ```
 Where:
 * -f frequency - Specifies the frequency in MHz, 100.0 by default if not passed
