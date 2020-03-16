@@ -49,12 +49,6 @@ arecord -D plughw:1,0 -c1 -d 0 -r 22050 -f S16_LE | sudo ./fm_transmitter -f 100
 ```
 ## Legal note
 Please keep in mind that transmitting on certain frequencies without special permissions may be illegal in your country.
-## New features
-* DMA peripheral support
-* Allows custom frequency and bandwidth settings
-* Works on every Raspberry Pi model
-* Reads mono and stereo files
-* Reads data from stdin
 
 ## Tested
 I've test this project with Raspberry pi 4 model B and it worked perfectly.  
