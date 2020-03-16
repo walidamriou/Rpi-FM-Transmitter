@@ -56,5 +56,4 @@ I've test this project with Raspberry pi 4 model B and it worked perfectly.
 ---------------------------------------------------------------------------------------------
 
 ## Audio Library
-
-Included sample audio was created by [graham_makes](https://freesound.org/people/graham_makes/sounds/449409/) and published on [freesound.org](https://freesound.org/)
+- 01 ------ Waves - Jeff II https://youtu.be/ZbyFsGMjfRg - Creative Commons Attribution 
